@@ -11,6 +11,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/init.recovery.mt8163.rc:root/init.recovery.mt8163.rc \
     $(LOCAL_PATH)/recovery/sbin/healthd:root/sbin/healthd
 
-$(call inherit-product, build/target/product/full.mk)
+$(call inherit-product, build/target/product/embedded.mk)
 
 PRODUCT_NAME := freezerfhd
